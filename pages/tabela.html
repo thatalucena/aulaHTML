@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela HTML</title>
+  <style>
+    table, tr, th, td {
+      border: 1px solid; 
+      border-collapse: collapse;
+    }
+    #usuario {
+      background-color: blueviolet;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <!-- cabeçalho -->
+    <thead>
+      <tr>
+        <!-- 1ª linha -->
+        <th id="usuario" colspan="4">Usuários</th>
+      </tr>
+      <!-- 2ª linha -->
+  
+      <tr>
+        <!-- 3 colunas -->
+        <th>id</th>
+        <th>Foto</th>
+        <th>nome</th>
+        <th>telefone</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 3ª linha -->
+      <tr>
+        <td>1</td>
+        <td><img width="30" src="https://cdn-icons-png.flaticon.com/512/12225/12225881.png" alt="foto perfil"></td>
+        <td>Nayara</td>
+        <td>85992268967</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><img  src="https://cdn-icons-png.flaticon.com/512/12225/12225881.png" width="30" alt="foto perfil"></td>
+        <td>Nayara</td>
+        <td>85992268967</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><img width="30" src="https://cdn-icons-png.flaticon.com/512/12225/12225881.png" alt="foto perfil"></td>
+        <td>Nayara</td>
+        <td>85992268967</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td><img width="30" src="https://cdn-icons-png.flaticon.com/512/12225/12225881.png" alt="foto perfil"></td>
+        <td>Nayara</td>
+        <td>85992268967</td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <hr>
+
+
+  <table>
+    <thead>
+      <tr>
+        <th>Frutas</th>
+        <th>Verduras</th>
+        <th>Grãos</th>
+        <th>...</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Maçã</td>
+        <td>Alface</td>
+        <td>Arroz</td>
+        <td rowspan="3">3 linhas</td>
+      </tr>
+      <tr>
+        <td>Laranja</td>
+        <td>Beterraba</td>
+        <td>Trigo</td>
+      </tr>
+      <tr>
+        <td colspan="3">3 colunas</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
